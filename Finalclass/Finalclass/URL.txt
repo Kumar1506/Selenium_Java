@@ -1,0 +1,16 @@
+http://www.unionbankofindia.co.in/EMICal.aspx
+http://www.sbi.co.in/portal/web/home/emi-calculator
+http://in.rediff.com/
+http://jqueryui.com/droppable/
+https://www.burbank.com.au/victoria
+http://image.online-convert.com/convert-to-jpg
+http://www.homeloanshub.com/mortgage-calculator/
+http://image.online-convert.com/convert-to-jpg
+https://bookshopofindia.com/booknotfound.asp
+http://jqueryui.com/resources/demos/droppable/default.html
+http://emicalculator.net/
+https://www.tripadvisor.in/
+
+
+http://seleniumhq.github.io/selenium/docs/api/java/
+http://testng.org/doc/documentation-main.html#native-dependency-injection

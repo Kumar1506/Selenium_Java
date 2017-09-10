@@ -1,0 +1,31 @@
+To run the grid in your system perform the below steps
+
+1. Go to google and find the site for seleniumhq
+2. download the jar file for Selenium Standalone Server
+3. First make your system act like a server (aka Hub) by running the below commands 
+		> Open a new cmd prompt
+		> type the command : cd path were the Selenium Standalone Server jar file is stored)
+		> java -jar selenium-server-standalone-2.53.0.jar -role hub
+		> you should get the message that server is set and copy the IP address from the cmd prompt
+4. Open the cmd prompt in the client machine or if you want to make your system as client , open a new cmd window and enter the below code with necessary changes
+		> java -jar selenium-server-standalone-2.53.0.jar  -role node -browser "browserName=internet explorer,maxInstances=20,version=8,platform=WINDOWS" -Dwebdriver.ie.driver="E:\drivers\IEDriverServer.exe" -browser "browserName=chrome,maxInstances=20,version=46,platform=WINDOWS" -Dwebdriver.chrome.driver="E:\drivers\chromedriver.exe" -browser "browserName=firefox,maxInstances=20,version=43,platform=WINDOWS" -role webdriver -hub http://192.168.0.101:4444/grid/register -port 5566
+
+
+5. Makes sure that Selenium Standalone Server jar and the drivers for internet explorer and chrome is available in the client machine as the code get executed in the client machine
+6. Copy the same POM.xml shared in the grid folder , to execute the code for grid.
+7. executed the code and check the cmd prompt that was opened for client machine.
+8. The code should get executed in all the client machine connected.
+9. If any issue , please write to us.
+
+https://github.com/SeleniumHQ/selenium/wiki/DesiredCapabilities
+
+http://localhost:4444/grid/console
+or 
+http://192.168.0.101:4444/grid/console
+
+		dcap.setCapability("browserName", "chrome");
+		dcap.setCapability("platform","WINDOWS");
+		
+		WebDriver driver = new RemoteWebDriver(new URL("http://192.168.0.105:4444/wd/hub"),dcap);
+		
+

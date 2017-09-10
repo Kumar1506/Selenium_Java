@@ -1,0 +1,11 @@
+Gitbash installation:
+https://git-scm.com/downloads
+
+Commands:
+1.git init
+2. Git status
+3. git add .
+4. git commit - m "v1.0"
+5. git remote add origin https://github.com/Jenkinstestsel/Dectest.git
+6. git push -u origin master
+7. git push -u origin master:branch name

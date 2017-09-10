@@ -1,0 +1,38 @@
+Register Class:
+_________________
+
+MySQL:
+Class.forName("com.mysql.jdbc.Driver");
+
+Oracle:
+Class.forName("oracle.jdbc.driver.OracleDriver");
+
+DB2:
+Class.forName("COM.ibm.db2.jdbc.net.DB2Driver");
+
+Sybase:
+Class.forName("com.sybase.jdbc.SybDriver");   
+
+SQLServer:
+Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver"); 
+
+
+Connection String:
+_____________________
+
+
+MySQL:
+jdbc:mysql://hostname/ databaseName
+
+ORACLE:
+jdbc:oracle:thin:@hostname:port Number:databaseName
+
+DB2:
+jdbc:db2:hostname:port Number/databaseName
+
+Sybase:
+jdbc:sybase:Tds:hostname: port Number/databaseName
+
+SQLServer:
+jdbc:sqlserver;servername=servername;databaseName=dbname;IntegratedSecurity=true
+

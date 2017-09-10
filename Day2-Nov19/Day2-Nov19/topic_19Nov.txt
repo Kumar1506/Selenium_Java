@@ -1,0 +1,11 @@
+topics:
+
+1. Partiallinktext vs linktext
+2. tagname
+3. close quit
+
+JAVA:
+
+a. Datatype
+b. CLass and Objects
+c. OOPS

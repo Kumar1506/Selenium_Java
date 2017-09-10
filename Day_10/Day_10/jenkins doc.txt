@@ -1,0 +1,20 @@
+Jenkins installation:
+https://jenkins.io/
+
+
+Download jenkins.war
+
+
+
+
+--------------------------------------
+1Commands:
+
+a. java -jar jenkins.war
+
+
+
+
+
+
+
